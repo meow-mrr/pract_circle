@@ -3,9 +3,9 @@
 
 using namespace std;
 
-double rectangleperimeter(double side1, double side2)
+double rectanglesquare(double side1, double side2)
 {
-    return 2 * (side1+side2);
+    return side1 * side2;
 }
 
 int main()
@@ -19,6 +19,6 @@ int main()
     cout << "Enter side2: " << endl;
     cin >> side2;
 
-    cout << "rectangleperimeter: "<< rectangleperimeter(side1, side2) <<endl;
+    cout << "rectanglesquare: "<< rectanglesquare(side1, side2) <<endl;
 
 }

@@ -3,17 +3,22 @@
 
 using namespace std;
 
-double capacityeradius(double radius)
+double rectangleperimeter(double side1, double side2)
 {
-    return radius = 3.0/4.0 * M_PI * (radius*radius*radius);
+    return 2 * (side1+side2);
 }
 
 int main()
 {
-    double radius;
-    cout << "Enter radius: " << endl;
-    cin >> radius;
+    double side1;
+    double side2;
 
-    cout << "capacity: "<<capacityeradius(radius)<<endl;
+    cout << "Enter side1: " << endl;
+    cin >> side1;
+
+    cout << "Enter side2: " << endl;
+    cin >> side2;
+
+    cout << "rectangleperimeter: "<< rectangleperimeter(side1, side2) <<endl;
 
 }

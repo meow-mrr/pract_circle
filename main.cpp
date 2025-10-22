@@ -3,9 +3,9 @@
 
 using namespace std;
 
-double squareradius(double radius)
+double capacityeradius(double radius)
 {
-    return radius = M_PI * (radius*radius);
+    return radius = 3.0/4.0 * M_PI * (radius*radius*radius);
 }
 
 int main()
@@ -14,6 +14,6 @@ int main()
     cout << "Enter radius: " << endl;
     cin >> radius;
 
-    cout << "Len: "<<squareradius(radius)<<endl;
+    cout << "capacity: "<<capacityeradius(radius)<<endl;
 
 }

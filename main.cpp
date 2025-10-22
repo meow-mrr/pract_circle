@@ -3,9 +3,9 @@
 
 using namespace std;
 
-double lenradius(double radius)
+double squareradius(double radius)
 {
-    return radius = 2 * M_PI * radius;
+    return radius = M_PI * (radius*radius);
 }
 
 int main()
@@ -14,6 +14,6 @@ int main()
     cout << "Enter radius: " << endl;
     cin >> radius;
 
-    cout << "Len: "<<lenradius(radius)<<endl;
+    cout << "Len: "<<squareradius(radius)<<endl;
 
 }
